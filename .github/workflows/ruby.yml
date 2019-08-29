@@ -26,12 +26,12 @@ jobs:
       run: bundle exec htmlproofer ./_site --allow-hash-href --check-html --disable-external
 
     - name: Deploy to build branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         cd _site
-        export remote_repo="https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-        export remote_branch="build"
-        echo Remote Repo: $remote_repo
-        echo Remote Branch: $remote_branch
+        remote_repo="https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        remote_branch="build"
         git init && \
         git config user.name "${GITHUB_ACTOR}"
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
@@ -42,5 +42,3 @@ jobs:
         git push --force $remote_repo master:$remote_branch
         rm -fr .git
         cd ../
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
