@@ -41,6 +41,6 @@ jobs:
         echo -n 'Files to Commit:'
         ls -l | wc -l
         git commit -m 'Deploy GitHub Actions Website Build'
-        git push --force $remote_repo master:$remote_branch
+        git push --force $remote_repo $remote_branch
         rm -fr .git
         cd ../
