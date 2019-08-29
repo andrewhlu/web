@@ -12,31 +12,6 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
-    - name: Create thumbnails for all images
-      run: |
-        # Change directory to gallery
-        cd images
-        # Loop through each directory
-        for dir in */
-        do
-        echo "Processing $dir directory"
-        cd $dir
-        # Thumbnails for all JPGs
-        for i in *.jpg
-        do
-        convert -thumbnail 400 $i thumbnail-$i || true
-        echo $i processed
-        done
-        # Thumbnails for all PNGs
-        for i in *.png
-        do
-        convert -thumbnail 400 $i thumbnail-$i || true
-        echo $i processed
-        done
-        cd ..
-        done
-        # Change directory back to home
-        cd ../..
 
     - name: Install dependencies
       run: bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3
