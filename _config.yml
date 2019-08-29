@@ -1,0 +1,18 @@
+title: Andrew H. Lu
+description: Welcome to Andrew's personal website!
+permalink: pretty
+theme: andrew-jekyll
+# gh_url: "https://github.com/andrewhlu/andrewhlu.github.io"
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+#   account:
+#     output: true
+#     permalink: /account/:path/
+#   events:
+#     output: true
+#     permalink: /events/:path/
+#   store:
+#     output: true
+#     permalink: /store/:path/
