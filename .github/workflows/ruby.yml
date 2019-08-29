@@ -1,10 +1,9 @@
-name: Ruby
+name: Jekyll Website Build
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -13,8 +12,37 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
-    - name: Build and test with Rake
+    - name: Create thumbnails for all images
       run: |
-        gem install jekyll bundler
-        bundle install --jobs 4 --retry 3
-        bundle exec jekyll build
+        # Change directory to gallery
+        cd images
+        # Loop through each directory
+        for dir in */
+        do
+        echo "Processing $dir directory"
+        cd $dir
+        # Thumbnails for all JPGs
+        for i in *.jpg
+        do
+        convert -thumbnail 400 $i thumbnail-$i || true
+        echo $i processed
+        done
+        # Thumbnails for all PNGs
+        for i in *.png
+        do
+        convert -thumbnail 400 $i thumbnail-$i || true
+        echo $i processed
+        done
+        cd ..
+        done
+        # Change directory back to home
+        cd ../..
+
+    - name: Install dependencies
+      run: bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3
+
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
+
+    - name: Test with HTMLproofer
+      run: bundle exec htmlproofer ./_site --allow-hash-href --check-html --disable-external
