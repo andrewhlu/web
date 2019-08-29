@@ -1,6 +1,9 @@
 name: Jekyll Website Build
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -21,3 +24,21 @@ jobs:
 
     - name: Test with HTMLproofer
       run: bundle exec htmlproofer ./_site --allow-hash-href --check-html --disable-external
+
+    - name: Deploy to build branch
+      run: |
+        cd _site
+        remote_repo="https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        remote_branch="build"
+        git init && \
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git add .
+        echo -n 'Files to Commit:'
+        ls -l | wc -l
+        git commit -m 'Deploy GitHub Actions Website Build'
+        git push --force $remote_repo master:$remote_branch > /dev/null 2>&1
+        rm -fr .git
+        cd ../
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
