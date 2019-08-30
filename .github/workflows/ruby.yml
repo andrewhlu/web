@@ -27,10 +27,10 @@ jobs:
 
     - name: Deploy to build branch
       env:
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         cd _site
-        export remote_repo="https://$GITHUB_TOKEN@github.com/${GITHUB_REPOSITORY}.git"
+        export remote_repo="https://$PERSONAL_ACCESS_TOKEN@github.com/${GITHUB_REPOSITORY}.git"
         export remote_branch="build"
         echo Remote Repo: $remote_repo
         echo Remote Branch: $remote_branch
