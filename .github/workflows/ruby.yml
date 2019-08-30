@@ -27,7 +27,7 @@ jobs:
 
     - name: Deploy to build branch
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         cd _site
         export remote_repo="https://$GITHUB_TOKEN@github.com/${GITHUB_REPOSITORY}.git"
