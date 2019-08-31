@@ -58,10 +58,10 @@ jobs:
           command: bundle exec htmlproofer ./_site --allow-hash-href --check-html --disable-external
 
       - run:
-          name: Clone and deploy to build branch
+          name: Clone and deploy to build repository
           command: |
             # Clone repository
-            git clone --depth 1 https://${GITHUB_TOKEN}@github.com/andrewhlu/web.git
+            git clone --depth 1 https://${GITHUB_TOKEN}@github.com/andrewhlu/web-build.git
 
             # Move .git folder from website repository into _site directory
             mv web/.git _site
@@ -79,4 +79,4 @@ jobs:
             git commit -m "Update: CI build #${CIRCLE_BUILD_NUM} committed by ${CIRCLE_USERNAME}"
 
             # Push to GitHub
-            git push https://${GITHUB_TOKEN}@github.com/andrewhlu/web.git build
+            git push https://${GITHUB_TOKEN}@github.com/andrewhlu/web-build.git master
