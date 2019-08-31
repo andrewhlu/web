@@ -64,7 +64,7 @@ jobs:
             git clone --depth 1 https://${GITHUB_TOKEN}@github.com/andrewhlu/web-build.git
 
             # Move .git folder from website repository into _site directory
-            mv web/.git _site
+            mv web-build/.git _site
 
             # Move CNAME file from website repository into _site directory
             # mv web/CNAME _site
