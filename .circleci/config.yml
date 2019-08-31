@@ -67,7 +67,7 @@ jobs:
             mv web/.git _site
 
             # Move CNAME file from website repository into _site directory
-            mv web/CNAME _site
+            # mv web/CNAME _site
 
             # Change directory to _site
             cd _site
