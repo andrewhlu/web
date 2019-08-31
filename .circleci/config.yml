@@ -23,40 +23,10 @@ jobs:
       - checkout
 
       - run:
-          name: Create thumbnails for all images in Gallery and Store
+          name: Create thumbnails for all images
           command: |
-            # Change directory to gallery
-            cd images/gallery
-
-            # Loop through each directory
-            for dir in */
-            do
-            echo "Processing $dir directory"
-
-            cd $dir
-
-            # Thumbnails for all JPGs
-            for i in *.jpg
-            do
-            convert -thumbnail 400 $i thumbnail-$i || true
-            echo $i processed
-            done
-
-            # Thumbnails for all PNGs
-            for i in *.png
-            do
-            convert -thumbnail 400 $i thumbnail-$i || true
-            echo $i processed
-            done
-
-            cd ..
-            done
-
-            # Change directory to store
-            cd ../store
-
-            # Process store directory
-            echo "Processing store directory"
+            # Change directory to images
+            cd images
 
             # Thumbnails for all JPGs
             for i in *.jpg
@@ -73,7 +43,7 @@ jobs:
             done
 
             # Change directory back to home
-            cd ../..
+            cd ..
 
       - run:
           name: Install dependencies
