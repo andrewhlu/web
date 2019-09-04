@@ -158,6 +158,7 @@ h2 {
 }
 
 .project-card {
+	position: relative;
 	margin: 10px;
 	width: 360px;
 	height: 380px;
@@ -172,6 +173,7 @@ h2 {
 }
 
 .project-card h2 {
+	padding-bottom: 5px;
 	font-weight: bold;
 	font-family: "Produkt", serif;
 }
@@ -181,4 +183,11 @@ h2 {
 	height: 200px;
 	border-radius: 10px 10px 0px 0px;
 	object-fit: cover;
+}
+
+.project-card .time {
+	font-style: italic;
+	color: #888;
+	position: absolute;
+	bottom: 0;
 }
