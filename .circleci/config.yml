@@ -26,7 +26,7 @@ jobs:
           name: Create thumbnails for all images
           command: |
             # Change directory to images
-            cd images
+            cd images/projects
 
             # Thumbnails for all JPGs
             for i in *.jpg
