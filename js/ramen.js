@@ -1,75 +1,75 @@
 var rankings = [
 	{
 		title: "Sonos Interns Take On Ramen!",
-		url: "/images/ramen/thumbnail-bigbowls.jpg"
+		url: "/images/ramen/bigbowls.jpg"
 	},
 	{
 		title: "1. Santouka",
-		url: "/images/ramen/thumbnail-01santouka.jpg"
+		url: "/images/ramen/01santouka.jpg"
 	},
 	{
 		title: "2. Isshindo Ramen",
-		url: "/images/ramen/thumbnail-02isshindo.jpg"
+		url: "/images/ramen/02isshindo.jpg"
 	},
 	{
 		title: "3 (tie). Oisa Ramen",
-		url: "/images/ramen/thumbnail-03oisa.jpg"
+		url: "/images/ramen/03oisa.jpg"
 	},
 	{
 		title: "3 (tie). Tsurumen Davis",
-		url: "/images/ramen/thumbnail-03tsurumen.jpg"
+		url: "/images/ramen/03tsurumen.jpg"
 	},
 	{
 		title: "4. Ganko Ittetsu Ramen",
-		url: "/images/ramen/thumbnail-04gankoittetsu.jpg"
+		url: "/images/ramen/04gankoittetsu.jpg"
 	},
 	{
 		title: "5. Shabu & Mein",
-		url: "/images/ramen/thumbnail-05shabumein.jpg"
+		url: "/images/ramen/05shabumein.jpg"
 	},
 	{
 		title: "6. Shin Hakata Ramen",
-		url: "/images/ramen/thumbnail-06shinhakata.jpg"
+		url: "/images/ramen/06shinhakata.jpg"
 	},
 	{
 		title: "7. Snappy Kitchen",
-		url: "/images/ramen/thumbnail-07snappy.jpg"
+		url: "/images/ramen/07snappy.jpg"
 	},
 	{
 		title: "8. Sapporo Ramen",
-		url: "/images/ramen/thumbnail-08sapporo.jpg"
+		url: "/images/ramen/08sapporo.jpg"
 	},
 	{
 		title: "9. One Ramen And Sushi",
-		url: "/images/ramen/thumbnail-09oneramen.jpg"
+		url: "/images/ramen/09oneramen.jpg"
 	},
 	{
 		title: "10. Sakura Sunnaku",
-		url: "/images/ramen/thumbnail-10sakurasunnaku.jpg"
+		url: "/images/ramen/10sakurasunnaku.jpg"
 	},
 	{
 		title: "11. Yume Wo Katare",
-		url: "/images/ramen/thumbnail-11yumewokatare.jpg"
+		url: "/images/ramen/11yumewokatare.jpg"
 	},
 	{
 		title: "12. Totto Ramen",
-		url: "/images/ramen/thumbnail-12totto.jpg"
+		url: "/images/ramen/12totto.jpg"
 	},
 	{
 		title: "13. Ruckus",
-		url: "/images/ramen/thumbnail-13ruckus.jpg"
+		url: "/images/ramen/13ruckus.jpg"
 	},
 	{
 		title: "14. Wen's Yunnan Noodle and Ramen",
-		url: "/images/ramen/thumbnail-14wensyunnan.jpg"
+		url: "/images/ramen/14wensyunnan.jpg"
 	},
 	{
 		title: "15. Wagamama",
-		url: "/images/ramen/thumbnail-15wagamama.jpg"
+		url: "/images/ramen/15wagamama.jpg"
 	},
 	{
 		title: "16. Amateras",
-		url: "/images/ramen/thumbnail-16amateras.jpg"
+		url: "/images/ramen/16amateras.jpg"
 	}
 ];
 
