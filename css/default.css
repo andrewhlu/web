@@ -63,8 +63,6 @@ h2 {
 /* Class CSS */
 .top {
 	padding-top: 60px;
-	background-size: cover;
-	animation: fadein 2s;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -78,8 +76,6 @@ h2 {
 
 	.top {
 		padding-top: calc(100vh - 350px);
-		background-size: cover;
-		animation: fadein 2s;
 	}
 } 
 
@@ -91,7 +87,7 @@ h2 {
 }
 
 .top h2 {
-	padding-top: 10px;
+	padding: 10px;
 }
 
 .top a {
@@ -138,6 +134,9 @@ h2 {
 
 	.post {
 		width: 1200px;
+	}
+
+	.post p {
 		font-size: 20px;
 	}
 

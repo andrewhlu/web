@@ -13,13 +13,15 @@ Here are our rankings for the best Ramen restaurants in Boston!
 
 ---
 
-# 1. [Santouka (3.1 mi)](https://goo.gl/maps/rawcE3fuhDmH1hLP8)
+## 1. Santouka
+
+![Santouka Harvard Square](/images/ramen/01santouka.jpg)
 
 This is our favorite ramen restaurant, and one that we recommend everyone to try. Everything about this ramen was enjoyable, from the flavorful broth, to the soft pork belly, and all the toppings in between (bamboo shoots, scallions, etc). The ramens are consistent in flavor, even across locations. Bowls are well-priced, with ramens starting at $11.25 for a regular size, and an upgrade to a large bowl only costing one additional dollar.
 
 Santouka in Harvard Square is much larger in seating, features a more expansive menu, and has an [online waitlist via Yelp](https://www.yelp.com/biz/santouka-harvard-square-cambridge-3). Both locations server the same quality of ramen, but I would highly recommend the Harvard Square location over their location in Back Bay for these reasons. Regardless of which location you choose, however, expect a long wait. 
 
-![Santouka Harvard Square](/images/ramen/01santouka.jpg)
+[View on Google Maps (3.1 mi from Sonos)](https://goo.gl/maps/rawcE3fuhDmH1hLP8)
 
 ---
 
