@@ -42,8 +42,25 @@ jobs:
             echo $i processed
             done
 
+            # Change directory to ramen
+            cd ../ramen
+
+            # Thumbnails for all JPGs
+            for i in *.jpg
+            do
+            convert -thumbnail 2048 $i thumbnail-$i || true
+            echo $i processed
+            done
+
+            # Thumbnails for all PNGs
+            for i in *.png
+            do
+            convert -thumbnail 2048 $i thumbnail-$i || true
+            echo $i processed
+            done
+
             # Change directory back to home
-            cd ..
+            cd ../..
 
       - run:
           name: Install dependencies
