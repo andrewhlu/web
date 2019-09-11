@@ -60,7 +60,7 @@ var rankings = [
 		url: "/images/ramen/13ruckus.jpg"
 	},
 	{
-		title: "14. Wen's Yunnan Noodle and Ramen"
+		title: "14. Wen's Yunnan Noodle and Ramen",
 		url: "/images/ramen/14wensyunnan.jpg"
 	},
 	{
