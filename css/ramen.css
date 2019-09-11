@@ -1,18 +1,18 @@
 /* Custom Fonts */
 @font-face {
 	font-family: Avenir;
-	src: url("../fonts/AvenirLTStd-Light.otf") format("opentype");
+	src: url("/fonts/AvenirLTStd-Light.otf") format("opentype");
 }
 
 @font-face {
 	font-family: Avenir;
 	font-weight: bold;
-	src: url("../fonts/AvenirLTStd-Black.otf") format("opentype");
+	src: url("/fonts/AvenirLTStd-Black.otf") format("opentype");
 }
 
 @font-face {
 	font-family: Produkt;
-	src: url("../fonts/Produkt-Light.otf") format("opentype");
+	src: url("/fonts/Produkt-Light.otf") format("opentype");
 }
 
 /* Global CSS */
@@ -38,7 +38,7 @@ h2 {
 	width: 100vw;
 	height: 100vh;
 	background: #000;
-	animation: fadein 6s;
+	animation: fadein 7s;
 	animation-iteration-count: infinite;
 }
 

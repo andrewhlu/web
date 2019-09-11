@@ -90,5 +90,5 @@ const animate = () => {
 	textElement.innerHTML = rankings[currentSlide].title;
 }
 
-setInterval(animate, 6000);
+setInterval(animate, 7000);
 animate();
