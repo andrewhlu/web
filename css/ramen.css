@@ -1,0 +1,57 @@
+/* Custom Fonts */
+@font-face {
+	font-family: Avenir;
+	src: url("../fonts/AvenirLTStd-Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Avenir;
+	font-weight: bold;
+	src: url("../fonts/AvenirLTStd-Black.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Produkt;
+	src: url("../fonts/Produkt-Light.otf") format("opentype");
+}
+
+/* Global CSS */
+body {
+	margin: 0px;
+	font-family: 'Avenir', sans-serif;
+	background: #cff1ff;
+}
+
+h1 {
+	font-family: 'Produkt', sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+/* Class CSS */
+.top {
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+	animation: fadein 6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fadein {
+  0%   { transform: scale(1); }
+  5%   { transform: scale(1); }
+  95%  { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.top-text {
+	position: absolute;
+	bottom: 5vh;
+	left: 5vh;
+	color: #fff;
+}
