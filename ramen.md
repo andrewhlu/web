@@ -5,7 +5,7 @@ description: Over the course of this summer, we've eaten many bowls of ramen. We
 cover_image: /images/ramen/bowls.jpg
 ---
 
-Written by Richard Wang, Zoe Li, and Andrew Lu
+*By Richard Wang, Zoe Li, and Andrew Lu*
 
 Over the course of our twelve weeks at Sonos, we have tried 17 ramen restaurants around the Boston area, in search of the best ramen bowls around. We have ranked each restaurant based on the quality and taste of a Tonkotsu Ramen (or their most similar item). Now that our internship is coming to an end, we're proud to reveal our findings.
 
@@ -13,7 +13,7 @@ Here are our rankings for the best Ramen restaurants in Boston!
 
 ---
 
-1. [Santouka (3.1 mi)](https://goo.gl/maps/rawcE3fuhDmH1hLP8)
+# 1. [Santouka (3.1 mi)](https://goo.gl/maps/rawcE3fuhDmH1hLP8)
 
 This is our favorite ramen restaurant, and one that we recommend everyone to try. Everything about this ramen was enjoyable, from the flavorful broth, to the soft pork belly, and all the toppings in between (bamboo shoots, scallions, etc). The ramens are consistent in flavor, even across locations. Bowls are well-priced, with ramens starting at $11.25 for a regular size, and an upgrade to a large bowl only costing one additional dollar.
 
