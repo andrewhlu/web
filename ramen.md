@@ -5,7 +5,13 @@ description: Over the course of this summer, we've eaten many bowls of ramen. We
 cover_image: /images/ramen/bowls.jpg
 ---
 
-# Ramen Rankings
+Written by Richard Wang, Zoe Li, and Andrew Lu
+
+Over the course of our twelve weeks at Sonos, we have tried 17 ramen restaurants around the Boston area, in search of the best ramen bowls around. We have ranked each restaurant based on the quality and taste of a Tonkotsu Ramen (or their most similar item). Now that our internship is coming to an end, we're proud to reveal our findings.
+
+Here are our rankings for the best Ramen restaurants in Boston!
+
+---
 
 1. [Santouka (3.1 mi)](https://goo.gl/maps/rawcE3fuhDmH1hLP8)
 
@@ -14,6 +20,8 @@ This is our favorite ramen restaurant, and one that we recommend everyone to try
 Santouka in Harvard Square is much larger in seating, features a more expansive menu, and has an [online waitlist via Yelp](https://www.yelp.com/biz/santouka-harvard-square-cambridge-3). Both locations server the same quality of ramen, but I would highly recommend the Harvard Square location over their location in Back Bay for these reasons. Regardless of which location you choose, however, expect a long wait. 
 
 ![Santouka Harvard Square](/images/ramen/01santouka.jpg)
+
+---
 
 2.  Isshindo Ramen (3.3 mi)
 3.  Oisa Ramen (0.5 mi)
