@@ -4,6 +4,7 @@ title: "Software Development Intern"
 description: "Smart Speaker Platform"
 location: "Sonos Inc."
 time: "Jun - Sep 2019"
+image: /images/projects/dodgethereact.png
 ---
 
 * Developed a new interface for playing content from an HTTP source using the clocking mechanisms for AirPlay 2, complete with support for metadata, radio stations, radio playlists, and more.

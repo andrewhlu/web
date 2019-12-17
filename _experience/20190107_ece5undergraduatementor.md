@@ -4,6 +4,7 @@ title: "Undergraduate Lab Assistant"
 description: "ECE 5: Intro to ECE"
 location: "UC Santa Barbara"
 time: "Jan - Mar 2019"
+image: /images/projects/dodgethereact.png
 ---
 
 * Mentored students about C++, Arduino, and circuit theory, in ECE 5, a project-based engineering course aimed at exposing freshmen to the techniques used to prototype and design basic circuits.

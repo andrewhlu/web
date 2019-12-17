@@ -157,14 +157,17 @@ h2 {
 	}
 }
 
-.project-card {
+.card {
 	position: relative;
 	margin: 10px;
-	width: 360px;
-	height: 380px;
 	border: 2px solid #999;
 	border-radius: 10px;
 	background: #f1f1f1;
+}
+
+.project-card {
+	width: 360px;
+	height: 380px;
 }
 
 .project-card h2, .project-card p {
@@ -186,8 +189,6 @@ h2 {
 }
 
 .project-card .time {
-	font-style: italic;
-	color: #888;
 	position: absolute;
 	bottom: 0;
 }
@@ -201,14 +202,13 @@ h2 {
 	margin: 0 1em;
 }
 
+.experience-card {
+	height: 580px;
+}
+
 .award-card {
-	position: relative;
-	margin: 10px;
 	padding: 20px;
 	width: 100%;
-	border: 2px solid #999;
-	border-radius: 10px;
-	background: #f1f1f1;
 	text-align: left;
 }
 
