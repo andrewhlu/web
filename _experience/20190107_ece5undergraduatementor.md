@@ -1,6 +1,7 @@
 ---
 layout: experience
-title: "Undergraduate Lab Assistant, ECE 5"
+title: "Undergraduate Lab Assistant"
+description: "ECE 5: Intro to ECE"
 location: "UC Santa Barbara"
 time: "Jan - Mar 2019"
 ---
