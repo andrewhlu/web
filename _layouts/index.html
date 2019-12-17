@@ -14,7 +14,7 @@
 			</div>
 
 			<div class="container">
-				<a class="chevron-down" href="#projects">o<i class="fas fa-chevron-down"></i></a>
+				<a class="chevron-down" href="#projects"><i class="fas fa-chevron-down"></i></a>
 			</div>
 		</div>
 
@@ -74,16 +74,19 @@
 					{% for award in site.awards reversed %}
 						{% if award.layout == "award" %}
 							<div class="card award-card">
-								<h2>{{ award.title }}</h2>
-								<p>{{ award.description }}
-								{% if award.project %}
-									{% for project in site.projects %}
-										{% if project.path contains award.project %}
-											 Project: <a href="{{ project.url }}">{{ project.title }}</a>
-										{% endif %}
-									{% endfor %}
-								{% endif %}
-								</p>
+								<h1 class="award-symbol"><i class="fas fa-medal"></i></h1>
+								<div class="award-text">
+									<h2>{{ award.title }}</h2>
+									<p>{{ award.description }}
+									{% if award.project %}
+										{% for project in site.projects %}
+											{% if project.path contains award.project %}
+												Project: <a href="{{ project.url }}">{{ project.title }}</a>
+											{% endif %}
+										{% endfor %}
+									{% endif %}
+									</p>
+								</div>
 								<p class="time">{{ award.time }}</p>
 							</div>
 						{% endif %}

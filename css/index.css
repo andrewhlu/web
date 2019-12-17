@@ -212,6 +212,18 @@ h2 {
 	text-align: left;
 }
 
+.award-card .award-symbol {
+	margin: 0;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: gold;
+}
+
+.award-card .award-text {
+	margin-left: 60px;
+}
+
 .award-card h2, .award-card p {
 	margin: 0;
 }
