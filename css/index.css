@@ -41,7 +41,7 @@ body {
 }
 
 h1 {
-	font-family: 'Produkt', sans-serif;
+	font-family: 'Produkt', serif;
 	font-weight: normal;
 	font-size: 40px;
 }
@@ -167,15 +167,15 @@ h2 {
 	background: #f1f1f1;
 }
 
-.project-card h2, p {
+.project-card h2, .project-card p {
 	margin: 0px;
 	padding: 10px;
 }
 
 .project-card h2 {
 	padding-bottom: 5px;
-	font-weight: bold;
 	font-family: "Produkt", serif;
+	font-weight: bold;
 }
 
 .project-card img {
@@ -199,4 +199,31 @@ h2 {
 
 .project-card .content-margin {
 	margin: 0 1em;
+}
+
+.award-card {
+	position: relative;
+	margin: 10px;
+	padding: 20px;
+	width: 100%;
+	border: 2px solid #999;
+	border-radius: 10px;
+	background: #f1f1f1;
+	text-align: left;
+}
+
+.award-card h2, .award-card p {
+	margin: 0;
+}
+
+.award-card h2 {
+	font-weight: bold;
+}
+
+.award-card .time {
+	font-style: italic;
+	color: #888;
+	position: absolute;
+	top: 20px;
+	right: 20px;
 }

@@ -63,6 +63,32 @@
 					{% endfor %}
 				</div>
 			</div>
+
+			<hr>
+
+			<div id="awards">
+				<h1>Awards</h1>
+
+				<div class="container">
+					{% for award in site.awards reversed %}
+						{% if award.layout == "award" %}
+							<div class="award-card">
+								<h2>{{ award.title }}</h2>
+								<p>{{ award.description }}
+								{% if award.project %}
+									{% for project in site.projects %}
+										{% if project.path contains award.project %}
+											 Project: <a href="{{ project.url }}">{{ project.title }}</a>
+										{% endif %}
+									{% endfor %}
+								{% endif %}
+								</p>
+								<p class="time">{{ award.time }}</p>
+							</div>
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
 		</div>
 
 		{% include foot.html %}
