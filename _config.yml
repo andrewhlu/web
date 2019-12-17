@@ -2,7 +2,7 @@ title: Andrew H. Lu
 description: Welcome to Andrew's personal website!
 permalink: pretty
 theme: andrew-jekyll
-gh_url: "https://github.com/andrewhlu/andrewhlu.github.io"
+gh_url: "https://github.com/andrewhlu/web"
 collections:
   projects:
     output: true
@@ -10,9 +10,6 @@ collections:
   experience:
     output: true
     permalink: /experience/:path/
-#   events:
-#     output: true
-#     permalink: /events/:path/
-#   store:
-#     output: true
-#     permalink: /store/:path/
+  awards:
+    output: true
+    permalink: /awards/:path/
