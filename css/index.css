@@ -138,12 +138,12 @@ h2 {
 	box-shadow: none;
 }
 
-.projects {
+.main {
 	margin: auto;
 	width: 80vw;
 }
 
-.projects h1 {
+.main h1 {
 	text-align: center;
 }
 
@@ -152,7 +152,7 @@ h2 {
 		width: 1200px;
 	}
 
-	.projects {
+	.main {
 		width: 1200px;
 	}
 }
@@ -190,4 +190,13 @@ h2 {
 	color: #888;
 	position: absolute;
 	bottom: 0;
+}
+
+.project-card .italic {
+	font-style: italic;
+	color: #888;
+}
+
+.project-card .content-margin {
+	margin: 0 1em;
 }

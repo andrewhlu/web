@@ -7,9 +7,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-#   account:
-#     output: true
-#     permalink: /account/:path/
+  experience:
+    output: true
+    permalink: /experience/:path/
 #   events:
 #     output: true
 #     permalink: /events/:path/
