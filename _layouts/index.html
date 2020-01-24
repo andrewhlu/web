@@ -9,7 +9,7 @@
 				<img src="{{ page.profpic }}" width="200" height="200" class="rounded-circle" alt="Profile Picture">
 			</div>
 
-			<div class="welcome-text">
+			<div class="center-text">
 				{{ content }}
 			</div>
 
@@ -81,7 +81,7 @@
 									{% if award.project %}
 										{% for project in site.projects %}
 											{% if project.path contains award.project %}
-												Project: <a href="{{ project.url }}">{{ project.title }}</a>
+												Project: {{ project.title }}
 											{% endif %}
 										{% endfor %}
 									{% endif %}
@@ -96,10 +96,32 @@
 
 			<hr>
 
-			<div id="contact">
+			<div id="contact" class="center-text">
 				<h1>Connect With Me!</h1>
 
-				<p>I love a good conversation!</p>
+				<h2>I love a good conversation!</h2>
+
+				<br>
+
+				<p>If you'd like to chat, feel free to email me at <a href="mailto:alu@ucsb.edu">alu@ucsb.edu</a>.</p>
+
+				<p>You can also follow me on <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/andrewhlu/" target="_blank">LinkedIn</a> and check out my projects on <i class="fab fa-github"></i> <a href="https://github.com/andrewhlu" target="_blank">GitHub</a>.</p>
+
+				<br>
+
+				<p>You can also check out my résumé!</p>
+
+				<p><a href="/docs/resume.pdf" class="button" target="_blank"><i class="fas fa-file-pdf"></i> Résumé</a></p>
+
+				<br>
+			</div>
+
+			<hr>
+
+			<div id="footer" class="center-text">
+				<h2>Thanks for checking out my new website!</h2>
+
+				<img src="/images/bowls.jpg" alt="We love ramen!" />
 			</div>
 		</div>
 
