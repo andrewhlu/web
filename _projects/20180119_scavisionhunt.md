@@ -5,6 +5,10 @@ description: "A real-time, multiplayer scavenger hunt, in real life. Built using
 time: "January 2018"
 event: "SB Hacks IV"
 image: /images/projects/scavision.PNG
+team:
+    - name: Andrew Lu
+      image: images/hk_prof_square.png
+      link: https://www.linkedin.com/in/andrewhlu/
 ---
 
 # ScaVision Hunt!

@@ -174,7 +174,7 @@ h2 {
 
 .project-card {
     width: 360px;
-    height: 380px;
+    height: 420px;
 }
 
 .project-card h2, .project-card p {
@@ -195,9 +195,24 @@ h2 {
     object-fit: cover;
 }
 
-.project-card .time {
+.project-card .card-bottom {
     position: absolute;
     bottom: 0;
+}
+
+.project-card .card-bottom .team-members {
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+.project-card .card-bottom .team-members a {
+    text-decoration: none;
+}
+
+.project-card .card-bottom .team-members img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
 }
 
 .project-card .italic {
