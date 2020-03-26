@@ -1,130 +1,130 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		{% include head.html %}
-	</head>
-	<body>
-		<div class="welcome">
-			<div class="container mobile">
-				<img src="{{ page.profpic }}" width="200" height="200" class="rounded-circle" alt="Profile Picture">
-			</div>
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        <div class="welcome">
+            <div class="container mobile">
+                <img src="{{ page.profpic }}" width="200" height="200" class="rounded-circle" alt="Profile Picture">
+            </div>
 
-			<div class="center-text">
-				{{ content }}
-			</div>
+            <div class="center-text">
+                {{ content }}
+            </div>
 
-			<div class="container">
-				<a class="chevron-down" href="#projects"><i class="fas fa-chevron-down"></i></a>
-			</div>
-		</div>
+            <div class="container">
+                <a class="chevron-down" href="#projects"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
 
-		<div class="main">
-			<hr>
+        <div class="main">
+            <hr>
 
-			<div id="projects">
-				<h1>Projects</h1>
+            <div id="projects">
+                <h1>Projects</h1>
 
-				<div class="container">
-					{% for project in site.projects reversed %}
-						{% if project.layout == "project" %}
-							<div class="card project-card">
-								<img src="{{ project.image }}" alt="{{ project.title }}">
-								<h2>{{ project.title }}</h2>
-								<p>{{ project.description }}</p>
-								<p class="time italic">{{ project.time }}{% if project.event %} - {{ project.event }}{% endif %}</p>
-							</div>
-						{% endif %}
-					{% endfor %}
-				</div>
-			</div>
+                <div class="container">
+                    {% for project in site.projects reversed %}
+                        {% if project.layout == "project" %}
+                            <div class="card project-card">
+                                <img src="{{ project.image }}" alt="{{ project.title }}">
+                                <h2>{{ project.title }}</h2>
+                                <p>{{ project.description }}</p>
+                                <p class="time italic">{{ project.time }}{% if project.event %} - {{ project.event }}{% endif %}</p>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
 
-			<hr>
+            <hr>
 
-			<div id="experience">
-				<h1>Experience</h1>
+            <div id="experience">
+                <h1>Experience</h1>
 
-				<div class="container">
-					{% for experience in site.experience reversed %}
-						{% if experience.layout == "experience" %}
-							<div class="card project-card experience-card">
-								<img src="{{ experience.image }}" alt="{{ experience.title }}">
-								<h2>{{ experience.title }}</h2>
-								<p class="italic">
-									{% if experience.description %}
-										{{ experience.description }}
-										<br>
-									{% endif %}
-									{{ experience.location }}, {{ experience.time }}
-								</p>
-								<div class="content-margin">
-									{{ experience.content }}
-								</div>
-							</div>
-						{% endif %}
-					{% endfor %}
-				</div>
-			</div>
+                <div class="container">
+                    {% for experience in site.experience reversed %}
+                        {% if experience.layout == "experience" %}
+                            <div class="card project-card experience-card">
+                                <img src="{{ experience.image }}" alt="{{ experience.title }}">
+                                <h2>{{ experience.title }}</h2>
+                                <p class="italic">
+                                    {% if experience.description %}
+                                        {{ experience.description }}
+                                        <br>
+                                    {% endif %}
+                                    {{ experience.location }}, {{ experience.time }}
+                                </p>
+                                <div class="content-margin">
+                                    {{ experience.content }}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
 
-			<hr>
+            <hr>
 
-			<div id="awards">
-				<h1>Awards</h1>
+            <div id="awards">
+                <h1>Awards</h1>
 
-				<div class="container">
-					{% for award in site.awards reversed %}
-						{% if award.layout == "award" %}
-							<div class="card award-card">
-								<h1 class="award-symbol"><i class="fas fa-medal"></i></h1>
-								<div class="award-text">
-									<h2>{{ award.title }}</h2>
-									<p>{{ award.description }}
-									{% if award.project %}
-										{% for project in site.projects %}
-											{% if project.path contains award.project %}
-												Project: {{ project.title }}
-											{% endif %}
-										{% endfor %}
-									{% endif %}
-									</p>
-								</div>
-								<p class="time">{{ award.time }}</p>
-							</div>
-						{% endif %}
-					{% endfor %}
-				</div>
-			</div>
+                <div class="container">
+                    {% for award in site.awards reversed %}
+                        {% if award.layout == "award" %}
+                            <div class="card award-card">
+                                <h1 class="award-symbol"><i class="fas fa-medal"></i></h1>
+                                <div class="award-text">
+                                    <h2>{{ award.title }}</h2>
+                                    <p>{{ award.description }}
+                                    {% if award.project %}
+                                        {% for project in site.projects %}
+                                            {% if project.path contains award.project %}
+                                                Project: {{ project.title }}
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                    </p>
+                                </div>
+                                <p class="time">{{ award.time }}</p>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
 
-			<hr>
+            <hr>
 
-			<div id="contact" class="center-text">
-				<h1>Connect With Me</h1>
+            <div id="contact" class="center-text">
+                <h1>Connect With Me</h1>
 
-				<h2>I love a good conversation!</h2>
+                <h2>I love a good conversation!</h2>
 
-				<br>
+                <br>
 
-				<p>If you'd like to chat, feel free to email me at <a href="mailto:alu@ucsb.edu">alu@ucsb.edu</a>.</p>
+                <p>If you'd like to chat, feel free to email me at <a href="mailto:alu@ucsb.edu">alu@ucsb.edu</a>.</p>
 
-				<p>You can also connect with me on <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/andrewhlu/" target="_blank">LinkedIn</a> and check out my projects on <i class="fab fa-github"></i> <a href="https://github.com/andrewhlu" target="_blank">GitHub</a>.</p>
+                <p>You can also connect with me on <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/andrewhlu/" target="_blank">LinkedIn</a> and check out my projects on <i class="fab fa-github"></i> <a href="https://github.com/andrewhlu" target="_blank">GitHub</a>.</p>
 
-				<br>
+                <br>
 
-				<p>You can also check out my résumé!</p>
+                <p>You can also check out my résumé!</p>
 
-				<p><a href="/docs/resume.pdf" class="button" target="_blank"><i class="fas fa-file-pdf"></i> Résumé</a></p>
+                <p><a href="/docs/resume.pdf" class="button" target="_blank"><i class="fas fa-file-pdf"></i> Résumé</a></p>
 
-				<br>
-			</div>
+                <br>
+            </div>
 
-			<hr>
+            <hr>
 
-			<div id="footer" class="center-text">
-				<h2>Thanks for checking out my new website!</h2>
+            <div id="footer" class="center-text">
+                <h2>Thanks for checking out my new website!</h2>
 
-				<img src="/images/bowls.jpg" alt="We love ramen!" />
-			</div>
-		</div>
+                <img src="/images/bowls.jpg" alt="We love ramen!" />
+            </div>
+        </div>
 
-		{% include foot.html %}
-	</body>
+        {% include foot.html %}
+    </body>
 </html>
