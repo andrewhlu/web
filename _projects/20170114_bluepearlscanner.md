@@ -6,9 +6,7 @@ time: "January 2017"
 event: "DVHS Blue Pearl"
 image: /images/projects/bluepearl.PNG
 team:
-    - name: Andrew Lu
-      image: images/hk_prof_square.png
-      link: https://www.linkedin.com/in/andrewhlu/
+    - andrewlu
 ---
 
 # Blue Pearl Ticket Scanner!

@@ -34,8 +34,9 @@
                                 <div class="card-bottom">
                                     <div class="team-members">
                                         {% for member in project.team %}
-                                            <a href="{{ member.link }}" target="_blank">
-                                                <img src="{{ member.image }}" class="rounded-circle" alt="{{ member.name }}" title="{{ member.name }}">
+                                            {% assign memberdata = site.data.members[member] %}
+                                            <a href="{{ memberdata.link }}" target="_blank">
+                                                <img src="images/members/{{ memberdata.image }}" class="rounded-circle" alt="{{ memberdata.name }}" title="{{ memberdata.name }}">
                                             </a>
                                         {% endfor %}
                                     </div>

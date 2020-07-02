@@ -6,9 +6,7 @@ time: "February 2017"
 event: "DVHS Music"
 image: /images/projects/wfcfundraiser.png
 team:
-    - name: Andrew Lu
-      image: images/hk_prof_square.png
-      link: https://www.linkedin.com/in/andrewhlu/
+    - andrewlu
 ---
 
 # Candy Bar Fundraiser POS!

@@ -1,0 +1,107 @@
+{
+    "andrewlu": {
+        "name": "Andrew Lu",
+        "image": "../hk_prof_square.png",
+        "link": "https://www.linkedin.com/in/andrewhlu/"
+    },
+    "jasonngo": {
+        "name": "Jason Ngo",
+        "image": "jasonngo.jpg",
+        "link": "https://www.linkedin.com/in/jason-ngo-b45b3597/"
+    },
+    "brianngo": {
+        "name": "Brian Ngo",
+        "image": "brianngo.jpg",
+        "link": "https://www.linkedin.com/in/brian-ngo-5b78a1142/"
+    },
+    "cherlin": {
+        "name": "Cher Lin",
+        "image": "cherlin.jpg",
+        "link": "https://www.linkedin.com/in/cher-lin-4987a3172/"
+    },
+    "danielgultom": {
+        "name": "Daniel Gultom",
+        "image": "danielgultom.jpg",
+        "link": "https://www.linkedin.com/in/daniel-gultom/"
+    },
+    "stevenlu": {
+        "name": "Steven Lu",
+        "image": "stevenlu.jpg",
+        "link": "https://www.linkedin.com/in/steven-lu-b4456a177/"
+    },
+    "jenniferlai": {
+        "name": "Jennifer Lai",
+        "image": "jenniferlai.jpg",
+        "link": "https://jenniferlai43.github.io/"
+    },
+    "jayleenli": {
+        "name": "Jayleen Li",
+        "image": "jayleenli.jpg",
+        "link": "https://jayleenli.github.io/"
+    },
+    "tinashi": {
+        "name": "Tina Shi",
+        "image": "tinashi.jpg",
+        "link": "https://www.linkedin.com/in/tina-shi/"
+    },
+    "maxleeroller": {
+        "name": "Max Lee-Roller",
+        "image": "blank-profile.png",
+        "link": "https://github.com/prothean051"
+    },
+    "zoeli": {
+        "name": "Zoe Li",
+        "image": "zoeli.jpg",
+        "link": "https://www.linkedin.com/in/zhengzheng-li/"
+    },
+    "brandtdudziak": {
+        "name": "Brandt Dudziak",
+        "image": "brandtdudziak.jpg",
+        "link": "https://www.linkedin.com/in/brandt-dudziak/"
+    },
+    "samanthabohlin": {
+        "name": "Samantha Bohlin",
+        "image": "samanthabohlin.jpg",
+        "link": "https://www.linkedin.com/in/samanthabohlin/"
+    },
+    "daynathibodeau": {
+        "name": "Dayna Thibodeau",
+        "image": "daynathibodeau.jpg",
+        "link": "https://www.linkedin.com/in/dayna-thibodeau-1696b8136/"
+    },
+    "amulyabellam": {
+        "name": "Amulya Bellam",
+        "image": "amulyabellam.jpg",
+        "link": "https://www.linkedin.com/in/amulyasaibellam/"
+    },
+    "nisharavikesavan": {
+        "name": "Nisha Ravikesavan",
+        "image": "nisharavikesavan.jpg",
+        "link": "https://www.linkedin.com/in/nisha-ravikesavan/"
+    },
+    "richardwang": {
+        "name": "Richard Wang",
+        "image": "richardwang.jpg",
+        "link": "https://www.linkedin.com/in/richard-wang-b65278124/"
+    },
+    "drashtipatel": {
+        "name": "Drashti Patel",
+        "image": "drashtipatel.jpg",
+        "link": "https://www.linkedin.com/in/patel-drashti/"
+    },
+    "jasonfigueroa": {
+        "name": "Jason Figueroa",
+        "image": "jasonfigueroa.jpg",
+        "link": "https://www.linkedin.com/in/jrfigueroa1297/"
+    },
+    "normanchung": {
+        "name": "Norman Chung",
+        "image": "normanchung.jpg",
+        "link": "https://www.linkedin.com/in/normanchung/"
+    },
+    "qiguo": {
+        "name": "Qi Guo",
+        "image": "blank-profile.png",
+        "link": "https://www.linkedin.com/in/qi-guo-320a32149/"
+    }
+}
