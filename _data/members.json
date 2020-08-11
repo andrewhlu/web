@@ -103,5 +103,20 @@
         "name": "Qi Guo",
         "image": "blank-profile.png",
         "link": "https://www.linkedin.com/in/qi-guo-320a32149/"
+    },
+    "thienkimcao": {
+        "name": "Thienkim Cao",
+        "image": "thienkimcao.jpeg",
+        "link": "https://www.linkedin.com/in/thienkimcao/"
+    },
+    "minjeaseo": {
+        "name": "Min Jea Seo",
+        "image": "minjeaseo.jpeg",
+        "link": "https://www.linkedin.com/in/min-jea-seo-164138165/"
+    },
+    "elliechoi": {
+        "name": "Ellie Choi",
+        "image": "elliechoi.jpeg",
+        "link": "https://www.linkedin.com/in/elliechoi/"
     }
 }

@@ -9,4 +9,4 @@ profpic: images/hk_prof_square.png
 
 ## I'm a rising fourth year Computer Engineering student at UC Santa Barbara.<br>I am currently a Software Development Engineer Intern at Amazon.
 
-## I enjoy participating in hackathons! To date, I've competed in 12 hackathons, won 6, and mentored in 4.<br>I also enjoy building random things in my free time. Take a look at some of my projects below!
+## I enjoy participating in hackathons! To date, I've competed in 13 hackathons, won 7, and mentored in 4.<br>I also enjoy building random things in my free time. Take a look at some of my projects below!
