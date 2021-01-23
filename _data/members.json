@@ -118,5 +118,25 @@
         "name": "Ellie Choi",
         "image": "elliechoi.jpeg",
         "link": "https://www.linkedin.com/in/elliechoi/"
+    },
+    "suhailchakravarty": {
+        "name": "Suhail Chakravarty",
+        "image": "suhailchakravarty.jpg",
+        "link": "https://www.linkedin.com/in/suhail-chakravarty/"
+    },
+    "harshdawda": {
+        "name": "Harsh Dawda",
+        "image": "harshdawda.jpg",
+        "link": "https://www.linkedin.com/in/hdawda/"
+    },
+    "kellyhu": {
+        "name": "Kelly Hu",
+        "image": "kellyhu.jpg",
+        "link": "https://www.linkedin.com/in/hu-kelly/"
+    },
+    "waqarkalim": {
+        "name": "Waqar Kalim",
+        "image": "waqarkalim.jpg",
+        "link": "https://www.linkedin.com/in/waqar-kalim/"
     }
 }
